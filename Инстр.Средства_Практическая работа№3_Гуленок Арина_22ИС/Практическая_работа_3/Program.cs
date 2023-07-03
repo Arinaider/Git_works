@@ -10,6 +10,12 @@ namespace Практическая_работа_3
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Введите значение х:");
+            string s = Console.ReadLine();  
+            double x = double.Parse(s); 
+            double F = 5*Math.Sin(x) - 7*Math.Cos(x);
+            Console.WriteLine("Значение функции = "+F);
+            Console.ReadKey();
         }
     }
 }
